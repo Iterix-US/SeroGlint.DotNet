@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 using NSubstitute;
-using SeroGlint.DotNet.Abstractions;
+using SeroGlint.DotNet.Common.Abstractions;
 using SeroGlint.DotNet.FileManagement;
 using SeroGlint.DotNet.Tests.TestObjects;
 using Shouldly;

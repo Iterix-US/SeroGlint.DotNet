@@ -1,4 +1,4 @@
-﻿namespace SeroGlint.DotNet.Abstractions
+﻿namespace SeroGlint.DotNet.Common.Abstractions
 {
     public interface IEnvironmentWrapper
     {

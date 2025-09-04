@@ -1,6 +1,6 @@
-﻿using SeroGlint.DotNet.EventArguments;
+﻿using SeroGlint.DotNet.Common.EventArguments;
 
-namespace SeroGlint.DotNet.Events
+namespace SeroGlint.DotNet.Common.Events
 {
     public delegate void ExecutionCompleteEventHandler(object sender, ExecutionCompleteEventArgs e);
 }

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SeroGlint.DotNet
+namespace SeroGlint.DotNet.Common
 {
     /// <summary>
     /// Friendly names for the time of day.

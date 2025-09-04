@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.FileManagement\SeroGlint.DotNet.FileManagement.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Notifications\SeroGlint.DotNet.Notifications.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj" />
   </ItemGroup>
 
 </Project>

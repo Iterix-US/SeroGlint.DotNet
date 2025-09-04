@@ -1,5 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using SeroGlint.DotNet.Extensions;
+using SeroGlint.DotNet.Common.Extensions;
 using Shouldly;
 
 namespace SeroGlint.DotNet.Tests.TestClasses.Extensions

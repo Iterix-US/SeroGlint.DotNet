@@ -11,12 +11,14 @@
   <ItemGroup>
     <PackageReference Include="MahApps.Metro" Version="2.4.10" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SeroGlint.DotNet.Ipc\SeroGlint.DotNet.Ipc.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Logging\SeroGlint.DotNet.Logging.csproj" />
     <ProjectReference Include="..\SeroGlint.DotNet.Windows\SeroGlint.DotNet.Windows.csproj" />
-    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SeroGlint.DotNet.FrameworkWrappers\SeroGlint.DotNet.FrameworkWrappers.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Logging\SeroGlint.DotNet.Logging.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\..\..\..\.nuget\packages\microsoft.extensions.logging.abstractions\9.0.4\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

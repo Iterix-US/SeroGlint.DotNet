@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SeroGlint.DotNet.Logging</Title>
+    <Description>A library built using SeroGlint.DotNet.Common that adds wrapping for easier Serilog and Nlog implementation.</Description>
+    <Copyright>Iterix 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj" />
+  </ItemGroup>
+
+</Project>

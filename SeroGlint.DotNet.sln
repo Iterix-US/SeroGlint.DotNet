@@ -3,17 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet", "SeroGlint.DotNet\SeroGlint.DotNet.csproj", "{C0862A01-F1DC-48A7-9386-D225A76DB916}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Common", "SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj", "{C0862A01-F1DC-48A7-9386-D225A76DB916}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Tests", "SeroGlint.DotNet.Tests\SeroGlint.DotNet.Tests.csproj", "{2B5296FF-01CD-4800-9E93-6BCB5B0BCF5D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestClients", "TestClients", "{1F648D11-CCBA-49B6-BAEF-92A3C1F7FA70}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1F648D11-CCBA-49B6-BAEF-92A3C1F7FA70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionTestHarness", "RegressionTestHarness\RegressionTestHarness.csproj", "{CB0727A0-6AF9-43B4-8ABE-FEACB7DBC941}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Windows", "SeroGlint.DotNet.Windows\SeroGlint.DotNet.Windows.csproj", "{D6290A56-CB5E-4755-A1F6-E85B8BE2BFC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.ElevatedAgent", "SeroGlint.DotNet.ElevatedAgent\SeroGlint.DotNet.ElevatedAgent.csproj", "{476BDB9C-6140-4D76-A148-8C825660FABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Logging", "SeroGlint.DotNet.Logging\SeroGlint.DotNet.Logging.csproj", "{44B77BF0-8E24-4511-8247-339E54B9AE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Ipc", "SeroGlint.DotNet.Ipc\SeroGlint.DotNet.Ipc.csproj", "{C3B7DAA6-7886-47CE-848A-E68837DCEE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Notifications", "SeroGlint.DotNet.Notifications\SeroGlint.DotNet.Notifications.csproj", "{183D7F7E-5C58-417B-9ABA-26B3EBC4F0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.Security", "SeroGlint.DotNet.Security\SeroGlint.DotNet.Security.csproj", "{FF417E70-A889-4CB2-9B41-8BD8D6C06693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.FileManagement", "SeroGlint.DotNet.FileManagement\SeroGlint.DotNet.FileManagement.csproj", "{4F3B535D-040E-4DDF-B89F-DFF209800EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeroGlint.DotNet.FrameworkWrappers", "SeroGlint.DotNet.FrameworkWrappers\SeroGlint.DotNet.FrameworkWrappers.csproj", "{9BDDC796-07EA-459E-A368-8993F2640496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,11 +53,36 @@ Global
 		{476BDB9C-6140-4D76-A148-8C825660FABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{476BDB9C-6140-4D76-A148-8C825660FABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{476BDB9C-6140-4D76-A148-8C825660FABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B77BF0-8E24-4511-8247-339E54B9AE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B77BF0-8E24-4511-8247-339E54B9AE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B77BF0-8E24-4511-8247-339E54B9AE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B77BF0-8E24-4511-8247-339E54B9AE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B7DAA6-7886-47CE-848A-E68837DCEE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B7DAA6-7886-47CE-848A-E68837DCEE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B7DAA6-7886-47CE-848A-E68837DCEE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B7DAA6-7886-47CE-848A-E68837DCEE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183D7F7E-5C58-417B-9ABA-26B3EBC4F0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183D7F7E-5C58-417B-9ABA-26B3EBC4F0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183D7F7E-5C58-417B-9ABA-26B3EBC4F0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183D7F7E-5C58-417B-9ABA-26B3EBC4F0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF417E70-A889-4CB2-9B41-8BD8D6C06693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF417E70-A889-4CB2-9B41-8BD8D6C06693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF417E70-A889-4CB2-9B41-8BD8D6C06693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF417E70-A889-4CB2-9B41-8BD8D6C06693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3B535D-040E-4DDF-B89F-DFF209800EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3B535D-040E-4DDF-B89F-DFF209800EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3B535D-040E-4DDF-B89F-DFF209800EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3B535D-040E-4DDF-B89F-DFF209800EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDDC796-07EA-459E-A368-8993F2640496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDDC796-07EA-459E-A368-8993F2640496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDDC796-07EA-459E-A368-8993F2640496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDDC796-07EA-459E-A368-8993F2640496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2B5296FF-01CD-4800-9E93-6BCB5B0BCF5D} = {1F648D11-CCBA-49B6-BAEF-92A3C1F7FA70}
 		{CB0727A0-6AF9-43B4-8ABE-FEACB7DBC941} = {1F648D11-CCBA-49B6-BAEF-92A3C1F7FA70}
 	EndGlobalSection
 EndGlobal

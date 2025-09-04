@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.Extensions.Logging;
-using SeroGlint.DotNet.Extensions;
-using SeroGlint.DotNet.NamedPipes.Interfaces;
+using SeroGlint.DotNet.Common.Extensions;
+using SeroGlint.DotNet.Ipc.Interfaces;
 
 namespace SeroGlint.DotNet.ElevatedAgent
 {

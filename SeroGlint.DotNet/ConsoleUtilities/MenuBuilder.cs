@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Logging;
-using SeroGlint.DotNet.Extensions;
+using SeroGlint.DotNet.Common.Extensions;
 
-namespace SeroGlint.DotNet.ConsoleUtilities
+namespace SeroGlint.DotNet.Common.ConsoleUtilities
 {
     public class MenuBuilder
     {

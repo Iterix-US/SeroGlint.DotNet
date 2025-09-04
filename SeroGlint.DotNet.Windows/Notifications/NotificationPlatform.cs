@@ -2,8 +2,8 @@
 using System.Xml;
 using Windows.UI.Notifications;
 using Microsoft.Extensions.Logging;
-using SeroGlint.DotNet.Notifications.Interfaces;
 using Microsoft.Toolkit.Uwp.Notifications;
+using SeroGlint.DotNet.Notifications.Interfaces;
 using SeroGlint.DotNet.Windows.Extensions;
 
 namespace SeroGlint.DotNet.Windows.Notifications

@@ -2,10 +2,10 @@
 using System.Windows;
 using RegressionTestHarness.Objects;
 using RegressionTestHarness.Utilities;
-using SeroGlint.DotNet.Extensions;
-using SeroGlint.DotNet.NamedPipes;
-using SeroGlint.DotNet.NamedPipes.EventArguments;
-using SeroGlint.DotNet.NamedPipes.Objects;
+using SeroGlint.DotNet.Common.Extensions;
+using SeroGlint.DotNet.Ipc;
+using SeroGlint.DotNet.Ipc.EventArguments;
+using SeroGlint.DotNet.Ipc.Objects;
 using SeroGlint.DotNet.Security;
 
 namespace RegressionTestHarness.Pages

@@ -3,7 +3,9 @@ using Microsoft.Extensions.Logging;
 using NLog;
 using NSubstitute;
 using Serilog;
-using SeroGlint.DotNet.Abstractions;
+using SeroGlint.DotNet.Common;
+using SeroGlint.DotNet.Common.Abstractions;
+using SeroGlint.DotNet.FrameworkWrappers;
 using SeroGlint.DotNet.Logging;
 using SeroGlint.DotNet.Tests.Interfaces;
 using SeroGlint.DotNet.Tests.Utilities;
@@ -39,7 +41,8 @@ namespace SeroGlint.DotNet.Tests.TestClasses.Logging
         [Fact]
         public void LoggerFactoryBuilder_WhenBuildingSerilogWithFileAndConsole_ThenCreatesLogFileWithMessage()
         {
-            var builder = new LoggerFactoryBuilder()
+            var directoryManager = new DirectoryManagementWrapper();
+            var builder = new LoggerFactoryBuilder(directoryManager)
                 .EnableConsoleOutput()
                 .EnableFileOutput(createLogPath: true, logPath: _testLogPath, logName: "TestLog", logExtension: "log")
                 .SetMinimumLevel(LoggingLevel.Information)
@@ -67,7 +70,8 @@ namespace SeroGlint.DotNet.Tests.TestClasses.Logging
         public void LoggerFactoryBuilder_WhenBuildingNLogWithFileAndConsole_ThenCreatesLogFileWithMessage()
         {
             // Arrange
-            var builder = new LoggerFactoryBuilder()
+            var directoryManager = new DirectoryManagementWrapper();
+            var builder = new LoggerFactoryBuilder(directoryManager)
                 .EnableConsoleOutput()
                 .EnableFileOutput(createLogPath: true, logPath: _testLogPath, logName: "TestLog", logExtension: "log")
                 .SetMinimumLevel(LoggingLevel.Information)
@@ -100,7 +104,8 @@ namespace SeroGlint.DotNet.Tests.TestClasses.Logging
 
             var configuration = configBuilder.Build();
 
-            var builder = new LoggerFactoryBuilder()
+            var directoryManager = new DirectoryManagementWrapper();
+            var builder = new LoggerFactoryBuilder(directoryManager)
                 .EnableConsoleOutput()
                 .EnableFileOutput(createLogPath: true, logPath: _testLogPath, logName: "TestLog", logExtension: "log")
                 .SetConfiguration(configuration);
@@ -125,7 +130,8 @@ namespace SeroGlint.DotNet.Tests.TestClasses.Logging
 
             var configuration = configBuilder.Build();
 
-            var builder = new LoggerFactoryBuilder()
+            var directoryManager = new DirectoryManagementWrapper();
+            var builder = new LoggerFactoryBuilder(directoryManager)
                 .SetConfiguration(configuration);
 
             var logger = builder.BuildNLog();

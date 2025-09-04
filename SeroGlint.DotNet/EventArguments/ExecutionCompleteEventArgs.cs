@@ -1,4 +1,4 @@
-﻿namespace SeroGlint.DotNet.EventArguments
+﻿namespace SeroGlint.DotNet.Common.EventArguments
 {
     public class ExecutionCompleteEventArgs
     {

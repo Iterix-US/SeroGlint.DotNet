@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
-using SeroGlint.DotNet.Extensions;
+using SeroGlint.DotNet.Common.Extensions;
+using SeroGlint.DotNet.Ipc;
+using SeroGlint.DotNet.Ipc.Interfaces;
+using SeroGlint.DotNet.Ipc.Objects;
 using SeroGlint.DotNet.Logging;
-using SeroGlint.DotNet.NamedPipes;
-using SeroGlint.DotNet.NamedPipes.Interfaces;
-using SeroGlint.DotNet.NamedPipes.Objects;
 using SeroGlint.DotNet.Security;
 
 namespace SeroGlint.DotNet.ElevatedAgent

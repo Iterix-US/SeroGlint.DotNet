@@ -8,7 +8,7 @@ using NLog.Targets;
 using Serilog;
 using Serilog.Events;
 
-namespace SeroGlint.DotNet.Extensions
+namespace SeroGlint.DotNet.Common.Extensions
 {
     public static class EnumExtensions
     {

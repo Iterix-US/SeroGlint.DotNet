@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SeroGlint.DotNet.Extensions
+namespace SeroGlint.DotNet.Common.Extensions
 {
     public static class ByteExtensions
     {

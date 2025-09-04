@@ -4,6 +4,7 @@ using SeroGlint.DotNet.Logging;
 using SeroGlint.DotNet;
 using System.Windows.Controls;
 using System.Windows.Threading;
+using SeroGlint.DotNet.Common;
 
 namespace RegressionTestHarness.Utilities;
 

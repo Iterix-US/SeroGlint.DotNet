@@ -1,9 +1,10 @@
-﻿using SeroGlint.DotNet.Abstractions;
+﻿using SeroGlint.DotNet.Common.Abstractions;
+using SeroGlint.DotNet.Common.Wrappers;
+using SeroGlint.DotNet.FileManagement;
+using SeroGlint.DotNet.FrameworkWrappers;
 using SeroGlint.DotNet.Windows.Abstractions;
 using SeroGlint.DotNet.Windows.Registry.Interfaces;
 using SeroGlint.DotNet.Windows.Registry;
-using SeroGlint.DotNet.FileManagement;
-using SeroGlint.DotNet.Wrappers;
 
 namespace SeroGlint.DotNet.Windows.Wrappers
 {

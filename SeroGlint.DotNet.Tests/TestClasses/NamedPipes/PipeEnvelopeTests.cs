@@ -1,8 +1,8 @@
 ﻿using System.Text;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
-using SeroGlint.DotNet.Extensions;
-using SeroGlint.DotNet.NamedPipes.Objects;
+using SeroGlint.DotNet.Common.Extensions;
+using SeroGlint.DotNet.Ipc.Objects;
 using SeroGlint.DotNet.Tests.TestObjects;
 using Shouldly;
 

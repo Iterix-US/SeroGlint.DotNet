@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using System.ComponentModel;
 using System.IO;
 using System.Reflection;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using static System.Double;
 using static System.Int32;
 
-namespace SeroGlint.DotNet.Extensions
+namespace SeroGlint.DotNet.Common.Extensions
 {
     /// <summary>
     /// Extension methods for the string data type.

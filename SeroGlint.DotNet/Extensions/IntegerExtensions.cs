@@ -1,4 +1,4 @@
-﻿namespace SeroGlint.DotNet.Extensions
+﻿namespace SeroGlint.DotNet.Common.Extensions
 {
     /// <summary>
     /// Extension methods for the integer data type.

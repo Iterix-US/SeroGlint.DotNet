@@ -3,7 +3,8 @@ using NLog;
 using NLog.Targets;
 using Serilog;
 using Serilog.Events;
-using SeroGlint.DotNet.Extensions;
+using SeroGlint.DotNet.Common;
+using SeroGlint.DotNet.Common.Extensions;
 using SeroGlint.DotNet.Tests.TestObjects;
 using Shouldly;
 

@@ -1,4 +1,4 @@
-﻿using SeroGlint.DotNet.Extensions;
+﻿using SeroGlint.DotNet.Common.Extensions;
 using SeroGlint.DotNet.Tests.TestObjects;
 using Shouldly;
 

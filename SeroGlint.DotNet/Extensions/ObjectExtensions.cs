@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using Microsoft.Extensions.Logging;
 
-namespace SeroGlint.DotNet.Extensions
+namespace SeroGlint.DotNet.Common.Extensions
 {
     public static class ObjectExtensions
     {

@@ -2,10 +2,11 @@
 using System.Text;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
-using SeroGlint.DotNet.Extensions;
-using SeroGlint.DotNet.NamedPipes;
-using SeroGlint.DotNet.NamedPipes.Interfaces;
-using SeroGlint.DotNet.NamedPipes.Objects;
+using SeroGlint.DotNet.Common;
+using SeroGlint.DotNet.Common.Extensions;
+using SeroGlint.DotNet.Ipc;
+using SeroGlint.DotNet.Ipc.Interfaces;
+using SeroGlint.DotNet.Ipc.Objects;
 using SeroGlint.DotNet.Security.Interfaces;
 using SeroGlint.DotNet.Tests.TestObjects;
 using Shouldly;

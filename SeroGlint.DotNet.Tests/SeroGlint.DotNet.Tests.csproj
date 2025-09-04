@@ -19,7 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.FileManagement\SeroGlint.DotNet.FileManagement.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Ipc\SeroGlint.DotNet.Ipc.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Logging\SeroGlint.DotNet.Logging.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet.Security\SeroGlint.DotNet.Security.csproj" />
+    <ProjectReference Include="..\SeroGlint.DotNet\SeroGlint.DotNet.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

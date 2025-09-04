@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Security.Principal;
 using Microsoft.Extensions.Logging;
 using Microsoft.Win32;
+using SeroGlint.DotNet.Common.Abstractions;
 using SeroGlint.DotNet.Windows.Registry.Interfaces;
 using SeroGlint.DotNet.Windows.Registry;
-using SeroGlint.DotNet.Abstractions;
 using SeroGlint.DotNet.Windows.Abstractions;
 using SeroGlint.DotNet.Windows.Wrappers;
 
