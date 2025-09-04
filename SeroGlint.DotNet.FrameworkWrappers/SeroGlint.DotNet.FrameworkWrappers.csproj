@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SeroGlint.GotNet.FrameworkWrappers</Title>
+    <Description>A library built using SeroGlint.DotNet.Common that adds wrapping for easier testing and extension of .NET static tooling.</Description>
+    <Copyright>Iterix 2025</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

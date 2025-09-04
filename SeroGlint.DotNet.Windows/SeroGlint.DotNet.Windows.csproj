@@ -4,17 +4,25 @@
     <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
 	  <Title>SeroGlint.DotNet.Windows</Title>
 	  <Company>Iterix</Company>
-	  <Description>A Windows-specific extension to the SeroGlint.DotNet library</Description>
+	  <Description>A Windows-specific extension to the SeroGlint.DotNet package suite for Windows specific functionality.</Description>
 	  <Copyright>Iterix 2025</Copyright>
 	  <PackageProjectUrl>https://github.com/Iterix-US/SeroGlint.DotNet</PackageProjectUrl>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <RepositoryUrl>https://github.com/Iterix-US/SeroGlint.DotNet</RepositoryUrl>
 	  <PackageTags>extensions;toolkit;expansion;dotnet;netstandard;windows;sero;glint;</PackageTags>
-	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseFile></PackageLicenseFile>
+	  <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 	  <RepositoryType>git</RepositoryType>
 	  <Version>1.0.0</Version>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />

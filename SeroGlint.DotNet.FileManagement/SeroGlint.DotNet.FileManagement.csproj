@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SeroGlint.DotNet.FileManagement</Title>
+    <Description>A library built using SeroGlint.DotNet.Common, FrameworkWrappers, and Logging that adds functionality for easier file interaction</Description>
   </PropertyGroup>
 
   <ItemGroup>

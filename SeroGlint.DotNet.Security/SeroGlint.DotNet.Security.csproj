@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SeroGlint.DotNet.Security</Title>
+    <Description>A library built using SeroGlint.DotNet.Common and ~.Logging that adds a .NET 2.0 implementation of AES encryption generation and verification.</Description>
+    <Copyright>Iterix 2025</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

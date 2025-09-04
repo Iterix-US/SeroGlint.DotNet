@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SeroGlint.DotNet.Ipc</Title>
+    <Description>A library built using SeroGlint.DotNet.Common, ~.Logging, and ~.Security that makes it easier to build and use named pipes</Description>
+    <Copyright>Iterix 2025</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
